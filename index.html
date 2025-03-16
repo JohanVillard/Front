@@ -2,15 +2,18 @@
 <html>
   <head>
     <title>Bienvenue chez Carambar & co</title>
-    <meta name="Projet de sélection | CDA" content="Landind page" />
+    <meta name="Projet de sélection | CDA" content="Landing page" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- Bouton pour générer la blague -->
     <button type="button" id="blagueBtn">Appuyer pour rigoler !</button>
-
-    <!-- Questions-Réponses -->
-    <p id="questionBlague"></p>
-    <p id="responseBlague"></p>
+    <!-- Conteneur du personnage -->
+    <div class="image-container">
+      <!-- Questions-Réponses -->
+      <p id="questionBlague" class="blague-text"></p>
+      <p id="responseBlague" class="blague-text"></p>
+    </div>
     <script type="module" src="dist/scripts.js"></script>
   </body>
 </html>

@@ -1,0 +1,14 @@
+.blague-text {
+  color: black;
+  font-size: 16px;
+}
+
+#questionBlague {
+  top: 20px;
+  left: 10px;
+}
+
+#responseBlague {
+  top: 80px;
+  left: 10px;
+}
