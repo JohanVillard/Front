@@ -7,7 +7,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-const url = "http://localhost:3000";
+const url = "https://back-t43i.onrender.com";
 const apiVersion = "/api/v1";
 const randomRoute = "/blagues/random";
 const getRandomBlague = () => __awaiter(void 0, void 0, void 0, function* () {
