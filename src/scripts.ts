@@ -1,6 +1,6 @@
 import { BlagueType } from "./types/blagueType";
 
-const url = "http://localhost:3000";
+const url = "https://back-t43i.onrender.com";
 const apiVersion = "/api/v1";
 const randomRoute = "/blagues/random";
 

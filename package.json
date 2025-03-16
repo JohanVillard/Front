@@ -1,8 +1,12 @@
 {
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
     "@types/node": "^22.13.9",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "gh-pages": "^6.3.0",
     "typescript": "^5.8.2"
   }
 }
