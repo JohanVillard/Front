@@ -7,12 +7,14 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+import { log } from "console";
 const url = "https://back-t43i.onrender.com";
 const apiVersion = "/api/v1";
 const randomRoute = "/blagues/random";
 const getRandomBlague = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const apiUrl = url + apiVersion + randomRoute;
+        log(apiUrl);
         const response = yield fetch(apiUrl, { method: "GET" });
         const blague = yield response.json();
         console.log(blague);
@@ -43,4 +45,3 @@ const handleBlague = () => __awaiter(void 0, void 0, void 0, function* () {
 // Écouter le click sur le bouton
 const blagueBtn = document.getElementById("blagueBtn");
 blagueBtn === null || blagueBtn === void 0 ? void 0 : blagueBtn.addEventListener("click", handleBlague);
-export {};

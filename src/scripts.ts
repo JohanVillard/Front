@@ -1,3 +1,4 @@
+import { log } from "console";
 import { BlagueType } from "./types/blagueType";
 
 const url = "https://back-t43i.onrender.com";
@@ -7,6 +8,8 @@ const randomRoute = "/blagues/random";
 const getRandomBlague = async () => {
   try {
     const apiUrl = url + apiVersion + randomRoute;
+
+    log(apiUrl);
 
     const response = await fetch(apiUrl, { method: "GET" });
 
